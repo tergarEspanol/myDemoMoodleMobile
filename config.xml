@@ -2,21 +2,21 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.moodle.learn"
-        versionCode = "3"
-        version   = "1.2">
-    <name>Learn Moodle</name>
+        id        = "org.tergarmexico.android"
+        versionCode = "1"
+        version   = "1.0">
+    <name>Tergar Móvil</name>
 
     <description>
-        Learn Moodle
+        Aplicación oficial de cursos en línea de Tergar en español
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+        Tergar en español
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.2</string>
+        <string>1.0</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -126,7 +126,7 @@
     </gap:plugin>
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="learnmoodle" />
+        <param name="URL_SCHEME" value="tergarandroid" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
