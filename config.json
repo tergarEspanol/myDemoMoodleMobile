@@ -8,5 +8,6 @@
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
+    "siteurl": "http://aprendizaje.tergarmexico.org/cursos/",
     "gcmpn": "learn-moodle-1159"
 }
